@@ -1,0 +1,15 @@
+~/SQUID_FLASK
+    |-- run.py
+    |-- config.py
+    |__ /venv             # Virtual Environment
+    |__ /credentails      # Configuration Json files
+    |__ /app              # Our Application Module
+         |-- __init__.py
+         |-- /api
+             |-- __init__.py
+             |-- app.py
+             |-- controller.py          
+         |__ /stripe
+             |-- __init__.py
+             |-- ...
+             
